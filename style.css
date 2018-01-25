@@ -1,0 +1,52 @@
+body {
+	background-image: url("https://www.truesdalepainting.com/wp-content/uploads/2015/01/backgrounds-grayscale-grunge-minimalistic-2781540-1920x1200.png");
+	background-repeat: repeat;
+	background-size: auto;
+	font-family: Raleway;
+	color: #DCDCDC;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+table {
+	table-layout: fixed;
+}
+
+td {
+	width:1px;
+	white-space: nowrap;
+}
+
+th {
+	text-align: left;
+}
+
+th {
+	background-color: black;
+	color: white;
+}
+
+tr {
+	background-color: DarkGray;
+	color: black;
+	font-weight: 550;
+
+}
+tr:nth-child(even) {
+	background-color: LightGray;
+}
+
+p {
+	font-family: helvetica;
+}
+
+a:link {
+	color: white;
+}
+
+a:visited {
+	color: hotpink;
+}
